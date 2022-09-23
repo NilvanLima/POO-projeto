@@ -1,0 +1,31 @@
+package pooprojeto1;
+
+import javax.swing.JOptionPane;
+
+public class TesteAluno {
+
+    public static void main(String[] args) {
+        
+        Ulife novoUlife = new Ulife();
+        Aluno aluno = new Aluno();
+        aluno.nome = JOptionPane.showInputDialog("Digite o seu nome: ");
+        
+        novoUlife.exibirMensagem();
+        aluno.pagar();
+        aluno.acessarAula();
+        aluno.exibirDados();
+        
+        aluno.ra = JOptionPane.showInputDialog("Digite seu RA: ");
+        for (aluno.ra.equals("Nilvan")){
+            aluno.exibirdados();
+            JOptionPane.showMessageDialog(null, "Seu RA é :" + ra);
+        }
+                
+        if(aluno.nome.equals("Nilvan")){
+            aluno.pagar();
+            JOptionPane.showMessageDialog(null, "PAGUE O ALUGUEL! ");
+        }else{
+            JOptionPane.showMessageDialog(null, "TAMBÉM PAGUE O ALUGUEL! ");
+        }
+    }        
+}
