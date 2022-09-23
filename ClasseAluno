@@ -1,0 +1,17 @@
+package pooprojeto1;
+
+import javax.swing.JOptionPane;
+
+public class Aluno{
+       String ra, curso, email, nome;
+      
+    public void pagar(){                
+    }
+    public void acessarAula(){       
+    }
+    public void exibirDados(){
+        
+        ra = "822133975";
+        
+    }
+}
