@@ -1,0 +1,7 @@
+package pooprojeto1;
+
+public class Ulife {   
+    public void exibirMensagem() {
+        
+    }
+}
